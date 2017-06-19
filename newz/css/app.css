@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  text-align: center;
+}
+
+i {
+  color:  darkgray;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+#openweathermap-widget-9 {
+  margin: 10px;
+  display: inline-block; }
+
+.masthead {
+  font-family: 'UnifrakturMaguntia', cursive !important;
+  display: inline-block; }
+
+nav.navbar {
+  border-radius: 0 !important; }
+
+.nav-item {
+  color: white; }
+
+.navbar-right {
+  margin-left: 100px; }
+
+form#login {
+  margin-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  border: 2px solid gray;
+  border-radius: 5px; }
+
+legend {
+  text-align: center; }
+
+#login-button {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  background-color: deepskyblue; }
+
+#create-button {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: deepskyblue; }
+
+/*# sourceMappingURL=app.css.map */

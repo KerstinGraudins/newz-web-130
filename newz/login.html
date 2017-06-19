@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<title>Central District Timez</title>
+
+<!-- css-->
+     <link rel="stylesheet" href="css/app.css" type="text/css"/>
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1e21addf31.js"></script>
+</head>
+   
+<body>
+<!--begin header -->
+<header>
+    <div class="masthead" role="banner">
+        <h1 class="display-3">Central District Timez</h1>
+    </div>
+      
+<!-- weather widget--> 
+        <div id="openweathermap-widget-9"></div>
+    <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 9,cityid: '5809844',appid: '3fe8667f5f97621a0db22c65bf5c09fa',units: 'imperial',containerid: 'openweathermap-widget-9',  });  (function() {var script = document.createElement('script');script.async = true;script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+<!--end weather widget-->
+      
+</header>
+<!--end header-->
+<!--begin navbar -->
+    <nav class="navbar navbar-inverse navbar-toggleable-sm" style="background-color: #000099">
+        <button class="navbar-toggler" type="button" 
+            data-toggle="collapse" data-target="#navItems"
+            aria-controls="navItems" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navItems">
+                <div class="navbar-nav">
+                    <a class="nav-item navbar-brand" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="campus.html">The Hood</a>
+                    <a class="nav-item nav-link" href="community.html">Community</a>
+                    <a class="nav-item nav-link" href="opinion.html">Opinion</a>
+                    <div class="navbar-right">
+                        <a class="nav-item navbar-brand" id="login-logout" href="login.html">Login</a>
+                    </div>
+                </div><!--end navbar-nav -->
+            </div><!--end collapse-->
+    </nav>
+<!--end navbar -->
+<!--login form-->
+    <main class="container">
+        <div class="row">
+            <form action="#" method="post" class="col-lg-4 offset-lg-4" id="login">
+                <legend>Editor Login</legend>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                         <input type="email" class="form-control" id="username" name="username" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <i class="fa fa-asterisk" aria-hidden="true"></i>
+                        </div>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    </div>
+                </div>
+                    <button id="login-button" type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    
+
+    <script type="text/javascript">
+        var js_page = 'login_page';
+    </script>
+    <script type="text/javascript" src="js/build/app.js"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
